@@ -1,0 +1,55 @@
+/* 
+position: static; => no specific way it is positioned it's just going with the natural flow of the page
+
+position: relative; => relative to it's normal position
+
+position: fixed; => relative to size of screen, always stays in same place even when scrolling
+
+position: absolute: => positioned relative to its nearest element , however if it's the only element on the screen it will move.
+
+position: sticky; => based on the user's scroll position
+ */
+
+h2 {
+    color: green;
+}
+body {
+    background-color: grey;
+    text-align: center;
+    position: relative;
+}
+header {
+    background-color: lightgray;
+    color: white;
+    padding: 20px;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: yellow;
+}
+a {
+    padding: 20px;
+    border: 5px dotted palevioletred;
+    margin: 10px;
+}
+form {
+    position: absolute;
+}
+button {
+    padding: 10px;
+    background-color: lightpink;
+    border: 4px solid palevioletred;
+    margin: 20px;
+}
+img {
+    width: 400px;
+    background-color: black;
+    padding: 10px 20px 30px 0px;
+    border: 5px groove magenta;
+    margin: 30px;
+}
